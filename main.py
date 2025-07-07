@@ -1,6 +1,2 @@
-def main():
-    print("Hello from localaiagent!")
-
-
-if __name__ == "__main__":
-    main()
+from langchain_ollama.llms import OllamaLLM
+from langchain_core.prompts import ChatPromptTemplate
